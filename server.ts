@@ -23,7 +23,7 @@ export default class Server {
 
         this.routes = [];
 
-        this.routeFilePath = './routes'
+        this.routeFilePath = `${__dirname}/routes`
     }
 
     async init() {
